@@ -1,0 +1,66 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+  <title>Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale= 1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="LivingStyle.css">
+  <script type="text/javascript" src="LivingStyle.js"></script>
+</head>
+<body>
+<div id="wrapper" >
+	
+	<nav class="navbar navbar-default">
+    <div id="mine" class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Living Well Properties</a>
+      </div>
+      <div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a  href="#">Register</a></li>
+          <li><a href="#">Listings</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+	
+	
+	
+	
+   <div id="pictures" class="carousel slide" data-ride="carousel" style="width: 70%; min-width: 1200px; float:left">
+                  <div id="searchSection" class="carousel-caption">
+                        <h3>Find your dream house here now:</h3>
+				         <button type="button"   class="btn btn-default">BUY</button>
+				         <button type="button"   class="btn btn-default">RENT</button>	
+			       </div>
+    	
+              <ol class="carousel-indicators">
+                <li data-target="#pictures" data-slide-to="0" class="active"></li>
+                <li data-target="#pictures" data-slide-to="1"></li>
+                <li data-target="#pictures" data-slide-to="2"></li>
+              </ol>
+    <!--Wrapper for slides--->
+               <div class="carousel-inner" id="actualimages" role="listbox">
+					
+			   
+                   <div class="item active"><img src="../LivingWellProperties/Images/cottage.jpg" ></div>
+				   
+                   <div class="item"><img src="../LivingWellProperties/Images/futuristic.jpg" ></div>
+                   <div class="item"><img src="../LivingWellProperties/Images/backyard.jpg"></div>
+              </div>		  
+    <!--Controls -->
+	          <a class="left carousel-control" href="#pictures"  data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+			  <a class="right carousel-control" href="#pictures"  data-slide="prev"><span class="glyphicon glyphicon-chevron-right"></span></a>
+   </div>
+   
+   
+   
+ </div>
+   
+ 
+</body>
+</html>
